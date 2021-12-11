@@ -20,7 +20,7 @@ class Input:
 
     def get_1d_ints_from_list(self) -> List[int]:
         with open(self.filepath) as input:
-            return [int(x) for x in input]
+            return [int(x.strip()) for x in input]
 
     def __repr__(self):
         return f"Filename: {self.filepath}"
