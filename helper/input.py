@@ -2,6 +2,7 @@ from io import TextIOWrapper
 from typing import List
 import os
 
+
 class Input:
 
     filepath: str
